@@ -1,0 +1,42 @@
+body{
+    background-color: lightgreen;
+
+}
+.container{
+    width: 1240px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.list{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.pokemon__item{
+    border-radius: 15px;
+    background-color: darkorange;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    width: 200px;
+    height: 370px;
+    border: 1px solid #555;
+    padding: 20px;
+    margin-left: 90px;
+}
+.pokemon__img{
+    width: 200px;
+}
+.pokemon__titem{
+    font-size: 32px;
+}
+.pokemon__types{
+    margin-left: -30px;
+    list-style: none;
+    font-size: 27px;
+}
+.pokemon__weaknes{
+    list-style: none;
+    margin-left: -30px;
+    font-size: 20px;
+}
